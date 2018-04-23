@@ -1,0 +1,13 @@
+<div class="cal-container">
+  <div class="form-group">
+    <label>Number 1</label>
+    <input type="text" [(ngModel)]="num1" placeholder="Number 1"/>
+  </div>
+  <div class="form-group">
+    <label>Number 2</label>  
+    <input type="text" [(ngModel)]="num2" placeholder="Number 2"/>
+  </div>
+  <div>
+    <app-calc [num1]="num1" [num2]="num2"></app-calc>
+  </div>
+</div>

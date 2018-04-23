@@ -1,0 +1,18 @@
+.calc-container {
+    padding: 5px;
+}
+.result-btn {
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    background-color: #234a94;
+}
+.result-content {
+    padding: 5px;
+    font-size: 2em;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #234a94;
+}
